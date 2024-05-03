@@ -1,0 +1,89 @@
+@charset "UTF-8";
+section {
+    padding: 10px 30px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: #D9D9D9;
+    width: 776px;    
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+fieldset {
+    border: none;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.container label {
+    margin-bottom: 5px;
+}
+
+section h1{
+    color: hsl(0, 0%, 0%);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+section h2{
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+section h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+    width: 30%;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container input[type="text"]:focus,
+.container input[type="email"]:focus,
+.container input[type="password"]:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+button[type="submit"] {
+    width: 119px;
+    height: 38px;
+    border-radius: 5px;
+    background: #133F52;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #32667D;
+}
